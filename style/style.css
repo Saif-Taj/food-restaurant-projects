@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hero{
+    background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url("../assets/hero-bg.png");
+    height: 647px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#hero .hero-content{
+    width: 726px;
+    margin: 0 auto;
+
+}
+.subtitle{
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 426;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 9px;
+}
+.title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 497;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 17px;
+}
+.discription{
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 355;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 22px;
+}
+.button{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 426;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 5px;
+background: rgb(82, 195, 3);
+ 
+}
+.button-contain{
+    text-align: center;
+}
